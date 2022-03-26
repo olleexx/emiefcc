@@ -48,6 +48,18 @@
     </section>
 
     <!-- about section start -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5993619507680732"
+     crossorigin="anonymous"></script>
+<!-- test ad unit 123 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5993619507680732"
+     data-ad-slot="3489085615"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
     <section class="about" id="about">
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5993619507680732"
      crossorigin="anonymous"></script>
@@ -236,23 +248,36 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form name="contact" method="POST" data-netlify="true">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input 
+                                name="name"
+                                type="text" 
+                                placeholder="Name" 
+                                required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input 
+                                name="email"
+                                type="email" 
+                                placeholder="Email" 
+                                required>
                             </div>
                         </div>
                         <div class="field">
                             <input type="text" placeholder="Subject" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea 
+                            name="message"
+                            cols="30" 
+                            rows="10" 
+                            placeholder="Message.." 
+                            required></textarea>
                         </div>
                         <div class="button-area">
-                            <button type="submit">Send message</button>
+                            <button type="submit" name="action">Send message</button>
                         </div>
                     </form>
                 </div>
@@ -266,5 +291,7 @@
     </footer>
 
     <script src="script.js"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5993619507680732"
+     crossorigin="anonymous"></script>
 </body>
 </html>
